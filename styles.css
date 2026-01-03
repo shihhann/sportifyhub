@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 60px;
+}
+.logo-img{
+    height: 40px;
+    width: auto;
+}
+.logo-text{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link {
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+    color: #fca311;
+}
+.btn-warning:hover {
+    background-color: #e69500;  
+    color: #000;
+}
+
+.hero-section{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("./images/heroimage.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-img {
+    height: 60vh;        
+    object-fit: cover;  
+}
+
+.product-card {
+    background-color: #111;
+    border: none;
+}
+.product-img {
+    height: 220px;
+    object-fit: cover;
+}
+.card-title {
+    color: #fff;
+}
+
+
+.product-card:hover {
+    transform: translateY(-6px);
+}
+
+
+.footer-section {
+    background-color: #0b0b0b;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: #fca311;
+}
